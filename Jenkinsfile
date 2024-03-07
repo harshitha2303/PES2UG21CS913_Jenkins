@@ -8,13 +8,13 @@ pipeline {
                 echo 'Build Stage Successful'
             }
         }
-        /*stage('Test') {
+        stage('Test') {
             steps {
                 // Intentional error introduced - incorrect command
                 sh './main/hello-nonexistent'
                 echo 'Test Stage Successful'
             }
-        }*/
+        }
         /*stage('Test') {
     steps {
         // Replace the incorrect command with a valid test command
